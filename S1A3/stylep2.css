@@ -1,0 +1,47 @@
+html {
+    background-color: #ff2975;
+}
+
+table, th, td {
+    border: solid black 5px;
+    border-collapse: collapse;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 75px;
+}
+
+table {
+    width: 100%;
+}
+
+#tcol1 {width: 25%;}
+
+#tcol2 {width: 40%;}
+
+.img1 {
+    width: 100%;
+    display: flex; 
+
+}
+
+h2.Ttext {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    color: 	#3cae88;
+}
+
+#material-icons {
+    size: 30px;
+}
+
+p {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 40px;
+}
