@@ -1,0 +1,39 @@
+html {
+    background-color: #2de2e6;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p {
+    font-size: 25px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nested-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Add this to vertically center items */
+    justify-content: space-evenly;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.img2 {
+    width: 20%;
+    margin-right: 5%;
+}
+
+
