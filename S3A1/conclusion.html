@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "Abdullah" content="Script of an assignment">
+        <title>Script</title>
+        <link rel="stylesheet" href="p3.css">
+
+        <script>
+           function sleep() {
+    document.getElementById("mythoughts1").style.display = "block";
+    setTimeout(function() {
+        document.getElementById("mythoughts1").style.display = "none";
+    }, 5000);
+    document.getElementById("sleep").style.display = "block";
+}
+
+    function end() {
+        document.getElementById("body").style.display = "none";
+    }
+            
+        </script>
+    </head>
+    <body id="body">
+        <h1>TIME TO GRIND</h1>
+        <div id="mythoughts1">
+            ITS 3 AM!!!!
+        </div>
+        <!-- <body background="blackImg.jpg"></body> -->
+        <ol>
+            <li>Diving into the coding jungle! 🌟 </li>
+            <li>On the brink of giving up, but no! I cracked the code! 💪</li>
+            <li>Embarked on a math adventure (it's a wild ride)! 🚀</li>
+            <li>Now, for the grand finale: my beloved DSGN assignment! 🎉</li>
+        </ol>
+        <button id = "start" onclick="sleep();">DO MORE WORK?!?!?!?!?</button>
+        <button id = "sleep" onclick="end();">SLEEPPPP</button >
+        
+    </body>
+</html>

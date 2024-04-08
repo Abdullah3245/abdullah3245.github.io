@@ -1,0 +1,138 @@
+html {
+    background-color: black;
+}
+
+button {
+    display: inline-block;
+    color: white;
+    background-color: transparent;
+    border: 0px;
+    text-decoration: underline;
+
+}
+
+button:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p {
+    white-space: pre;
+    color: #9ecbff;
+    display: block; 
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px #957dad,
+                 1px 2px 0px #957dad,
+                 1px 3px 0px #957dad,
+                 1px 4px 0px #957dad,
+                 1px 5px 0px #957dad,
+                 1px 6px 0px #957dad,
+                 1px 10px 5px rgba(16, 16, 16, 0.5),
+                 1px 15px 10px rgba(16, 16, 16, 0.4),
+                 1px 20px 30px rgba(16, 16, 16, 0.3),
+                 1px 25px 50px rgba(16, 16, 16, 0.2);
+}
+
+a {
+    color: white;
+}
+
+
+
+
+#lectures {
+    display: none;
+    animation-name: codeFadeIn;
+    animation-duration: 4s;
+}
+
+@keyframes codeFadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+#mythoughts1 {
+    background-color:   transparent;
+    width: 30vw;
+    position: fixed;
+    right: 10vw;
+    display: none;
+    animation-name: thoughtsfadeIn;
+    animation-duration: 5001ms;
+    animation-direction: forwards;
+    animation-iteration-count: 1;
+    color: red;
+    font-size: 40px;
+    font-weight: bolder;
+    top: 30vh;
+}
+
+@keyframes thoughtsfadeIn {
+    0% , 100% {opacity: 0;}
+    50% {opacity: 1; }
+}
+
+
+#lecturethoughts {
+    top: 100px;
+}
+
+#mythoughts2 {
+    color: red;
+    color: red;
+    font-size: 40px;
+    background-color:   transparent;
+    width: 30vw;
+    position: fixed;
+    right: 10vw;
+    top: 70vh;
+    display: none;
+    animation-name: thoughtsfadeIn1;
+    animation-duration: 5001ms;
+    animation-direction: forwards;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes thoughtsfadeIn1 {
+    0% , 100% {opacity: 0;}
+    50% {opacity: 1; }
+}
+
+#focused {
+    position: absolute;
+    display: none;
+    animation-name: codeFadeIn2;
+    animation-duration: 4001ms;
+    animation-direction: forwards;
+    animation-iteration-count: 1;
+}
+
+#notfocused {
+    position: absolute;
+    top: -20vh;
+    animation-name: codeFadeOut1;
+    animation-duration: 2001ms;
+    animation-direction: forwards;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes codeFadeOut1 {
+    0% , 100% {opacity: 0;}
+    50% {opacity: 1; }
+}
+
+@keyframes codeFadeIn2 {
+    0% , 100% {opacity: 0;}
+    50% {opacity: 1; }
+}

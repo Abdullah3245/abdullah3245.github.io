@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="Abdullah" content="Script of an assignment">
+    <title>Script</title>
+    <link rel="stylesheet" href="p2.css">
+    <script>
+        function lectures() {
+            setTimeout(function() {
+                document.getElementById("lectures").style.display = "block";
+            }, 4000);
+            document.getElementById("mythoughts1").style.display = "block";
+            setTimeout(function() {
+                document.getElementById("mythoughts1").style.display = "none";
+            }, 5000);
+            var button1 = document.getElementById("wakeUp");
+            button1.style.pointerEvents = "none";
+            button1.style.opacity = "0.8";
+            button1.style.color = "grey";
+        }
+
+        function skip() {
+            var button2 = document.getElementById("skip");
+            button2.style.pointerEvents = "none";
+            button2.style.opacity = "0.8";
+            button2.style.color = "grey";
+            document.getElementById("mythoughts2").style.display = "block";
+            setTimeout(function() {
+                document.getElementById("mythoughts2").style.display = "none";
+            }, 5000);
+            document.getElementById("notFocused").style.display = "none";
+            // Correctly display the focused div
+            document.getElementById("focused").style.display = "block";
+        }
+
+        function sleep() {
+            // Corrected to reference button3 instead of non-existent button1
+            var button3 = document.getElementById("staySleep");
+            button3.style.pointerEvents = "none";
+            button3.style.opacity = "0.8";
+            button3.style.color = "grey";
+        }
+
+    </script>
+</head>
+
+<body>
+    <div id="mythoughts1">
+        UGHHH!! Not again
+    </div>
+    <div id = "mythoughts2">
+        NO!!!!!!!!
+    </div>
+    <h1>Morning</h1>
+    <p>
+        public void StartDay() {
+            if (MinutesBeforeLecture < 5) { 
+                <button id="wakeUp" onclick="lectures();">wakeUp();</button>
+                } else {
+                <button class="staySleep" onclick="window.location.href='sleep.html';sleep();">staySleep();</button>
+                    }
+            }
+    </p>
+
+    <div id="lectures" class="lectures">
+        <h1>Lectures</h1>
+        <p>
+            public void Lecture() {
+                while (lectures == true) {
+                stayFocued();
+                }
+                    <div id ="notFocused">
+        <p>                    if (focus == false) {</p> 
+        <button id="skip" onclick="skip();">skipLecture();</button>
+        <p>                        }</p>
+                    </div>
+                    <div id = "focused">
+        <p>                focus == true; //the grind never stops</p>
+                        <button id="grind" onclick="window.location.href='conclusion.html'">startGrinding();</button>
+                    </div>
+
+         <p>    }</p>   
+
+        </p>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
