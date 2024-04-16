@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+html {
+    background-image: linear-gradient(to right, #B7FFB9, #5685C2);
+    scroll-behavior: smooth;
+}
+
+#page1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#dialogue {
+    position: absolute;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 40px;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 40vh;
+    border-radius: 10%;
+    border: 5px solid #254789;
+    z-index: 1;
+    top: 17.5%;
+
+}
+
+.image1 {
+    position: absolute;
+    z-index: 2;
+    right: 27.5%;
+    top: 42%;
+
+}
+
+hr {
+    position: relative;
+    z-index: 3;
+    border: 3px solid #254789;
+    border-radius: 1.5px;
+    width: 77.5%;
+    top: 40%;
+    z-index: 3;
+}
+
+#circle1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    left: 70%;
+    top: 87%;
+    border: 3px solid #254789;
+    z-index: 4;
+}
+
+#circle2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    left: 50%;
+    top: 87%;
+    border: 3px solid #254789;
+    z-index: 4;
+}
+
+#circle3 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    left: 30%;
+    top: 87%;
+    border: 3px solid #254789;
+    z-index: 4;
+}
+
+#circle4 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    left: 87%;
+    top: 87%;
+    border: 3px solid #254789;
+    z-index: 4;
+}
+
+#circle5 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    left: 10%;
+    top: 87%;
+    border: 3px solid #254789;
+    z-index: 4;
+}
+
+#page2 {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#vl {
+    position: absolute;
+    border-left: 6px solid #254789;
+    height: 300px;
+    left: 11.5%;
+    margin-top: -5%;
+}
+
+#h1 {
+    font-family: "Figtree", sans-serif;
+    font-size: 40px;
+    color: #254789;
+    display: flex;
+    justify-content: center;
+    top: 10%;
+    font-weight: 500;
+}
+
+#text {
+    font-family: "Figtree", sans-serif;
+    font-size: 30px;
+    color: #254789;
+    display: flex;
+    justify-content: center;
+    top: 10%;
+}
+
+hr.line2 {
+    margin-left: 11.5%;
+    margin-top: -14.5%;
+}
+
+#circle6 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    font-family: "Figtree", sans-serif;
+    left: 80%;
+    top: 24%;
+    border: 3px solid #254789;
+    color: #254789;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 4;
+}
+
+#circle7 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-family: "Figtree", sans-serif;
+    background-color: white;
+    left: 50%;
+    top: 24%;
+    border: 3px solid #254789;
+    color: #254789;
+    z-index: 4;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#circle8 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-family: "Figtree", sans-serif;
+    border-radius: 50%;
+    background-color: white;
+    left: 20%;
+    top: 24%;
+    border: 3px solid #254789;
+    color: #254789;
+    font-size: 35px;
+    z-index: 4;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#vl2 {
+    position: absolute;
+    border-left: 6px solid #254789;
+    height: 1200px;
+    left: 89%;
+    margin-top: 22%;
+}
+
+#flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30%;
+}
+
+#page3 {
+    width: 100vw;
+    height: 100vh;
+}
+
+hr.line3 {
+    width: 40%;
+    top: 70%;
+    left: 19.2%;
+}
+
+#h3 {
+    font-family: "Figtree", sans-serif;
+    font-size: 40px;
+    color: #254789;
+    display: flex;
+    justify-content: center;
+    margin-top: 37.5%;
+    margin-left: -22.5%;
+    font-weight: 500;
+}
+
+#filler {
+    opacity: 0;
+}
