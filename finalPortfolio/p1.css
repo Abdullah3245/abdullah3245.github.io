@@ -1,0 +1,138 @@
+html {
+    background-color: #0F52BA;
+    font-family: cursive;
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: none;
+}
+
+
+#introtext {
+    padding: 10px;
+    /* text-align: center; */
+    font-size: 60px;
+    animation-name: type;
+    color: white;
+    white-space: nowrap;
+    animation-duration: 4s;
+    overflow: hidden;
+}
+
+#introtext2{
+    font-size: 50px;
+    color: gray;
+ }
+
+@keyframes type {
+    from { width: 0 }
+  to { width: 100% }
+}
+
+.blinking-cursor {
+    animation-name: blinking;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    color: cadetblue;
+}
+
+@keyframes blinking {
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+    
+}
+
+li {
+    float: left;
+    padding: 8px;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+  }
+
+  li.name {
+    font-weight: bold;
+  }
+
+  #s1, a, #s2, #s3 {
+    display: flex;
+    justify-content: space-evenly; /* Evenly spaces items along the line */
+    align-items: stretch; /* Stretches items to fill the container vertically */
+    margin-bottom: 2.5%;
+}
+  
+  .gg-mail {
+    scale: 1.5;
+    top: 1%;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  li.icon {
+    display: flex;
+    justify-content: right;
+  }
+
+  #a1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 30%;
+    background-color: lightblue;
+  }
+
+
+
+  #a1:hover {
+    box-shadow: 0 8px 16px 0 white(0,0,0,0.2);
+  }
+
+  #container {
+    padding: 2px 16px;
+  }
+
+  .article {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 30%;
+    background-color: lightblue;
+}
+
+.container {
+    padding: 2px 16px;
+    text-align: center; /* Centers the text within each container */
+}
+
+
+
+
+
+  h1 {
+    font-size: 100px;
+  }
+
+  a:hover {
+    scale: 1.1;
+  }
+
+  h4 {
+    font-size: 50px;
+  }
